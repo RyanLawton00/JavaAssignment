@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #4783d6;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CinemaEnterpriso.TheatrePageController">
+   <children>
+      <ListView fx:id="theatresListView" layoutX="50.0" layoutY="77.0" prefHeight="298.0" prefWidth="501.0" />
+      <Button fx:id="theatreSelectButton" layoutX="255.0" layoutY="330.0" mnemonicParsing="false" onAction="#theatreClickSelect" prefHeight="35.0" prefWidth="90.0" text="Select" />
+      <Text layoutX="186.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select a Theatre">
+         <font>
+            <Font name="Cooper Black" size="28.0" />
+         </font>
+      </Text>
+      <Label layoutX="50.0" layoutY="60.0" text="Theatre name:">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+   </children>
+</AnchorPane>

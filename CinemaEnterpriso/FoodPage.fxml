@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #4783d6;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CinemaEnterpriso.FoodPageController">
+   <children>
+      <Text layoutX="175.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Foods And Drinks">
+         <font>
+            <Font name="Cooper Black" size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="buyButtonBTN" layoutX="400.0" layoutY="323.0" mnemonicParsing="false" onAction="#buyButtonClicked" text="Buy" />
+      <Label fx:id="popcornPriceLBL" layoutX="224.0" layoutY="147.0" text="PopCorn" />
+      <Label fx:id="tangoPriceLBL" layoutX="344.0" layoutY="147.0" text="Tango" />
+      <Label fx:id="skittlesPriceLBL" layoutX="104.0" layoutY="265.0" text="Skittles" />
+      <Label fx:id="cokePriceLBL" layoutX="346.0" layoutY="265.0" text="Coke" />
+      <Label fx:id="haribosPriceLBL" layoutX="218.0" layoutY="265.0" text="Haribos" />
+      <ImageView fitHeight="65.0" fitWidth="91.0" layoutX="69.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Resources/large-french-fries.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="91.0" layoutX="213.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Resources/popcorn1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="91.0" layoutX="328.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Resources/16287011_0_640x640.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="91.0" layoutX="72.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Resources/skittles_flavors_180125_tease_34a2498693efe14b41f71f464d96cc33.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="91.0" layoutX="199.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Resources/Haribo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="91.0" layoutX="324.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Resources/881211-coke500mlbottle2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="99.0" layoutY="147.0" text="Chips" />
+      <CheckBox fx:id="chipsCheckBox" layoutX="82.0" layoutY="173.0" mnemonicParsing="false" text="CheckBox" />
+      <CheckBox fx:id="popcornCheckBox" layoutX="201.0" layoutY="173.0" mnemonicParsing="false" text="CheckBox" />
+      <CheckBox fx:id="skittlesCheckBox" layoutX="81.0" layoutY="288.0" mnemonicParsing="false" text="CheckBox" />
+      <CheckBox fx:id="cokeCheckBox" layoutX="320.0" layoutY="288.0" mnemonicParsing="false" text="CheckBox" />
+      <CheckBox fx:id="TangoCheckBox" layoutX="320.0" layoutY="173.0" mnemonicParsing="false" text="CheckBox" />
+      <CheckBox fx:id="haribosCheckBox" layoutX="201.0" layoutY="288.0" mnemonicParsing="false" text="CheckBox" />
+   </children>
+</AnchorPane>
